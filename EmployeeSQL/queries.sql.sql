@@ -15,7 +15,7 @@ order by e.emp_no;
 ---Q2-----
 select first_name,last_name,hire_date
 from employees
-where RIGHT(hire_date, 2) ='86'
+where YEAR(hire_date) ='1986'
 order by first_name;
 
 ----Q3----
